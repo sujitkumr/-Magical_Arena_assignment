@@ -5,7 +5,7 @@ import org.arenagame.modules.Player;
 
 import static org.arenagame.util.Utils.*;
 
-class Main {
+public class Main {
     public static void main(String[] args) {
         Arena arena = new Arena();
         while (true) {
