@@ -16,7 +16,7 @@ public class Main {
 
             if (option == 1) {
                 Player newPlayer = inputNewPlayerDetails();
-                arena.addPlayer(newPlayer.getName(),newPlayer.getHealth(), newPlayer.getStrength(), newPlayer.getAttack());
+                arena.addPlayer(newPlayer.getName(), newPlayer.getHealth(), newPlayer.getStrength(), newPlayer.getAttack());
             } else if (option == 2) {
                 if (arena.getPlayerCount() < 2) {
                     System.out.println("There should be at least two players in the Arena.\nPlease add more players to continue.\n");
