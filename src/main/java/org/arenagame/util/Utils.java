@@ -21,7 +21,7 @@ public class Utils {
     public static int inputIntegerFromUser(String prompt) {
         System.out.print(prompt);
         while (!scanner.hasNextInt()) {
-            scanner.next(); // to consume the incorrect input
+            scanner.next();
             System.out.print("Invalid input. Please enter a valid integer: ");
         }
         return scanner.nextInt();
